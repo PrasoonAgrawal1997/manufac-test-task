@@ -1,0 +1,23 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+td,
+th {
+  width: 96px;
+  text-align: center;
+  padding: 8px;
+}
+
+td:first-child {
+  font-weight: 600;
+}
